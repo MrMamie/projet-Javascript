@@ -37,6 +37,20 @@ console.log(document.querySelector("ul").id);
 // L'attribut href du premier lien
 console.log(document.querySelector("a").href);
 
+// Liste des classes de l'élément identifié par "antiques"
+var classes = document.getElementById("antiques").classList;
+console.log(classes.length); // Affiche 1 : l'élément possède une seule classe
+console.log(classes[0]); // Affiche "merveilles"
+
+//vérifier la présence d'un attribut sur un élément grâce à la méthodehasAttribute
+if (document.querySelector("a").hasAttribute("target")) {
+    console.log("Le premier lien possède l'attribut target");
+} else {
+    console.log("Le premier lien ne possède pas l'attribut target");
+}
+
+//L'élément identifié par antiques possède la classe merveille
+
 if (document.getElementById("antiques").classList.contains("merveille")) {
     console.log("L'élément identifié par antiques possède la classe merveille");
 } else {

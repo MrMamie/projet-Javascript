@@ -48,9 +48,7 @@ document.getElementById("langages").replaceChild(bashElt, document.getElementByI
 
 // Suppression de l'élément identifié par "bash"
 document.getElementById("langages").removeChild(document.getElementById("bash"));
-
 //-----------------------------------------------
-
 document.getElementById('contenu').insertAdjacentHTML("afterend", 
 '<p>En voici une <a href="https://fr.wikipedia.org/wiki/Liste_des_langages_de_programmation">liste</a> complète.</p>');
 

@@ -14,3 +14,4 @@ console.log(paragraphesElts[2].style.color); // N'affiche rien
 var stylePara = getComputedStyle(document.getElementById("para"));
 console.log(stylePara.fontStyle); // Affiche "italic"
 console.log(stylePara.color); // Affiche la couleur bleue en valeurs RGB
+
